@@ -1,0 +1,13 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+p{
+    text-align: justify;
+}
+.fondo-azul{
+    background: #332B96;
+}
+.fondo-negro{
+    background: #000;
+}
