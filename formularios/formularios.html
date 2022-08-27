@@ -22,13 +22,57 @@
             </header>
             <form id="frm-registro">
                  <div class="fila">
-                    <div class="columna">
+                    <div class="columna-2">
                         <label for="txt-nombre">Nombre</label>
                         <input type="text" placeholder="Ingrese su nombre" id="txt-nombre">
                     </div>
-                    <div class="columna">
+                    <div class="columna-2">
                         <label for="txt-apellido">Apellido</label>
                         <input type="text" placeholder="Ingrese su apellido" id="txt-apellido">
+                    </div>
+                 </div>
+
+                 <div class="fila">
+                    <div class="columna">
+                        <label for="txt-correo">Correo electrónico</label>
+                        <input type="email" placeholder="nombre@gmail.com" id="txt-correo">
+                    </div>
+                 </div>
+
+                 <div class="fila">
+                    <div class="columna">
+                        <label for="txt-direccion">Dirección</label>
+                        <input type="text" placeholder="Ingrese su dirección" id="txt-direccion">
+                    </div>
+                 </div>
+
+                 <div class="fila">
+                    <div class="columna-3">
+                        <label for="txt-ciudad">Ciudad</label>
+                        <input type="text" placeholder="Ingrese su ciudad" id="txt-ciudad">
+                    </div>
+                    <div class="columna-3">
+                        <label for="slt-provincia">Provincia</label>
+                        <select name="provincia" id="slt-provincia">
+                            <option value="">Seleccione una provincia</option>
+                            <option value="1">San José</option>
+                            <option value="2">Alajuela</option>
+                            <option value="3">Cartago</option>
+                            <option value="4">Heredia</option>
+                            <option value="5">Puntarenas</option>
+                            <option value="6">Limón</option>
+                            <option value="7">Guanacaste</option>
+                        </select>
+                    </div>
+                    <div class="columna-3">
+                        <label for="text-zip">Código Postal</label>
+                        <input type="text" id="text-zip">
+                    </div>
+                 </div>
+
+                 <div class="fila">
+                    <div class="columna">
+                        <button type="button" id="btn-registrar">Registrarme</button>
                     </div>
                  </div>
             </form>

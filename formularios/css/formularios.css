@@ -1,5 +1,5 @@
 #frm-registro{
-    border: 1px solid #000;
+    border: 1px solid blue;
     width: 40%;
 }
 
@@ -10,8 +10,17 @@
 }
 
 #frm-registro .fila .columna{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 100%;
+}
+#frm-registro .fila .columna-2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2.15);
+}
+#frm-registro .fila .columna-3 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3.15);
 }
