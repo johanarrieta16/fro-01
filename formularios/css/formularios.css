@@ -71,3 +71,18 @@ html {
     background: #61185b;
     cursor: pointer;
 }
+a.regresar{
+    font-size: 15px;
+    border: 2px solid #61185b;
+    background-color: #A46B9F;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    margin: 2px;
+    padding: 10px;
+    width: 90px;
+}
+.regresar:hover{
+    background: #61185b;
+    cursor: pointer;
+}
