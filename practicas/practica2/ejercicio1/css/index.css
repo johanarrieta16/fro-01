@@ -1,0 +1,191 @@
+/* Estilos generales*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 3px;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+}
+.fila .columna{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.fila .columna-2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2.15);
+}
+.fila .columna-3 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3.15);
+}
+.fila .columna-4 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/4.15);
+}
+.fila .columna-5 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5.15);
+}
+.fila .columna-6 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/6.15);
+}
+.fila .columna-7 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/7.15);
+}
+.fila .columna-8 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/8.15);
+}
+.fila .columna-9 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/9.15);
+}
+.fila .columna-10 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/10.15);
+}
+.fila .columna-11 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/11.15);
+}
+.fila .columna-12 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/12.15);
+}
+/* Estilos generales*/
+
+/* Estilos de sct-intro*/
+header #sct-intro{
+    background-color: #191919;
+    color: #fff;
+    padding: 0 80px;
+}
+#sct-intro h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#sct-intro .puntoVerde{
+    color: #13EA51;
+}
+#sct-intro .columna .intro-linea-1{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+#sct-intro .columna .intro-linea-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 180px;
+    width: 50%;
+}
+#sct-intro .columna .intro-linea-2 span{
+    border-bottom: 1px solid #797979;
+    padding-bottom: 3px;
+}
+#sct-intro .columna-3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom:15px;
+}
+#sct-intro .columna-3 .intro-linea-4{
+    color: #797979;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: end;
+}
+/* Estilos de sct-intro*/
+
+/* Estilos de sct-menu-en*/
+#sct-menu-en .fila{
+    display: flex;
+    align-items: end;
+    margin: 80px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+#sct-menu-en .fila p{
+    display: flex;
+    align-items: end;
+}
+#sct-menu-en .menu-en-linea-1{
+    font-size: 36px;
+}
+#sct-menu-en p sup{
+    font-size: 12px;
+    display: flex;
+    align-items: flex-start !important;
+}
+#sct-menu-en .menu-en-linea-12-span{
+    font-weight: 400;
+}
+/* Estilos de sct-menu-en*/
+
+/* Estilos de sct-texto-principal*/
+#sct-texto-principal{
+    margin: 0 25px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    /* line-height: 80px; */
+}
+/* Estilos de sct-texto-principal*/
+
+/* Estilos de sct-menu-de*/
+#sct-menu-de{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+#sct-menu-de .menu-de-linea-12-span{
+    color: #FF4400;
+}
+/* Estilos de sct-menu-de*/
+
+/* Estilos de sct-texto-secundario*/
+#sct-texto-secundario{
+    margin: 0 25px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #FF4400;
+}
+/* Estilos de sct-texto-secundario*/
+
+/* Estilos de sct-texto-terciario*/
+#sct-texto-terciario {
+    margin: 0 70px 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+#sct-texto-terciario .texto-terciario-span{
+    border-bottom: solid 4px #FF4400;
+}
+/* Estilos de sct-texto-terciario */
