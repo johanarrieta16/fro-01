@@ -137,8 +137,7 @@ header #sct-intro{
 }
 #sct-menu-en p sup{
     font-size: 12px;
-    display: flex;
-    align-items: flex-start !important;
+    align-self: flex-start;
 }
 #sct-menu-en .menu-en-linea-12-span{
     font-weight: 400;
