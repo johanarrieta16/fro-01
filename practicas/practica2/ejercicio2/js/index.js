@@ -1,6 +1,6 @@
 let timeLeft = 30;
 let seconds = document.getElementById('seconds');
-let timerId = setInterval(countdown, 100);
+let timerId = setInterval(countdown, 1000);
 
 function countdown() {
     if (timeLeft == -1) {
