@@ -9,12 +9,28 @@ html{
     color: #3d4246;
     text-decoration: underline;
 }
+.regresar{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.regresar a{
+    margin: 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #3d4246;
+}
+.regresar a:hover{
+    background: #3d4246;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
 /* Inicio estilos sección oferta */
 #sct-ofertas{
     display: flex;
     margin: 0 auto;
     width: 80%;
-    padding-top: 40px ;
 }
 #sct-ofertas .img-container{
     display: flex;
@@ -117,6 +133,5 @@ html{
         order: 3;
     }
 }
-
 /* Fin estilos sección cuadros */
 
