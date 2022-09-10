@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Work Sans', sans-serif;
+}
+.redes{
+    font-weight: bold;
+    color: #3d4246;
+    text-decoration: underline;
+}
+/* Inicio estilos sección oferta */
+#sct-ofertas{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 40px ;
+}
+#sct-ofertas .img-container{
+    display: flex;
+    width: 50%;
+}
+#sct-ofertas .img-container img{
+    width: 100%;
+    align-self: center;
+}
+#sct-ofertas .info{
+    width: 50%;
+    padding-left: 3%;
+}
+#sct-ofertas .info h2{
+    color: #3d4246;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#sct-ofertas .info h3{
+    color: #3d4246;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#sct-ofertas .info p{
+    color: #69727B;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#sct-ofertas .info p span{
+    font-weight: bold;
+}
+/* Fin estilos sección oferta */
+
+@media all and (max-width:992px){
+    #sct-ofertas{
+        display: flex;
+        flex-direction: column;
+    }
+    #sct-ofertas .img-container{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #sct-ofertas .info{
+        width: 100%;
+    }
+}
+
+/* Inicio estilos sección cuadros */
+#sct-colores{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 40px ;
+    margin-bottom: 50px;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+}
+.verde{
+    background: #009432;
+}
+.amarillo{
+    align-self: flex-start;
+    background: #FFC312;
+}
+.rojo{
+    background: #EA2027;
+}
+.morado{
+    background: #833471;
+}
+
+@media all and (max-width:576px){
+    #sct-colores{
+        flex-direction: column;
+    }
+    #sct-colores .caja{
+        width: 100%;
+    }
+    .amarillo{
+        order: 0;
+    }
+    .azul{
+        order: 1;
+    }
+    .verde{
+        order: 2;
+    }
+    .rojo{
+        order: 3;
+    }
+}
+
+/* Fin estilos sección cuadros */
+
