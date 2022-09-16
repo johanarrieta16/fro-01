@@ -77,4 +77,21 @@ header{
         height: 200px;
     }
 }
+
+@media all and (max-width:576px){
+    header{
+        font-size: 22px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    /* #sct-elecciones{
+        flex-direction: column;
+    } */
+    #sct-elecciones .pokemon img{
+        padding: 30px;
+    }
+    #sct-elecciones .pokemon .caja{
+        height: 100px;
+    }
+}
 /* Fin estilos responsive */
