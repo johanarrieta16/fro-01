@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Work Sans', sans-serif;
+}
+main{
+    border: 2px solid #050505;
+}
+.regresar{
+    display: flex;
+    margin: 0 auto;
+}
+.regresar a{
+    margin: 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #3d4246;
+}
+.regresar a:hover{
+    background: #3d4246;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Inicio estilos sección elecciones */
+#sct-elecciones{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#sct-elecciones .pokemon{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+    border: 3px solid #050505;
+    border-radius: 5px;
+}
+#sct-elecciones .pokemon img{
+    width: 100%;
+    padding: 30px;
+}
+#sct-elecciones .pokemon h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+#sct-elecciones .pokemon .caja{
+    align-self: center;
+    margin: 20px;
+    border: 3px solid #050505;
+    border-radius: 5px;
+    width: 50%;
+    height: 100px;
+}
+/* Fin estilos sección elecciones */
+
+/* Inicio estilos responsive */
+@media all and (max-width:768px){
+    #sct-elecciones{
+        flex-direction: column;
+    }
+    #sct-elecciones .pokemon img{
+        padding: 80px;
+    }
+    #sct-elecciones .pokemon .caja{
+        height: 200px;
+    }
+}
+/* Fin estilos responsive */
