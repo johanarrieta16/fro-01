@@ -5,6 +5,7 @@
 html{
     font-family: 'Montserrat', sans-serif;
 }
+/* Inicio estilos de header */
 header{
     background: #373c3f;
     color: #ebebeb;
@@ -15,6 +16,7 @@ header #nav-mobile{
     display: flex;
     justify-content: space-between;
     padding-left: 4%;
+    font-size: 16px;
 }
 header #nav-mobile span{
     display: flex;
@@ -25,10 +27,69 @@ header #nav-mobile .material-icons{
     min-height: 32px;
     min-width: 32px;
     background: #202529;
+    font-size: 18px;
 }
 header #nav-desktop{
     display: none;
 }
+/* Fin estilos de header */
+
+/* Inicio estilos sct-intro */
+#sct-intro{
+    color: #fff;
+    font-size: 6vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    background-image: linear-gradient(to right, #27b8c9 , #078aa4);
+}
+#sct-intro .intro-top,
+#sct-intro .intro-middle{
+    width: 90%;
+}
+#sct-intro .intro-middle{
+    padding-top: 30px;
+    width: 77%;
+    font-size: 5vw;
+}
+#sct-intro .intro-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#sct-intro a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+}
+#intro-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #27212c;
+    color: #fff;
+    font-size: 3vw;
+    height: 100px;
+}
+#intro-bottom .intro-bottom-1{
+    opacity: 0.5;
+    padding-left: 10%;
+}
+#intro-bottom .intro-bottom-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bc3183;
+    width: 100px;
+    height: 100px;
+}
+/* Inicio estilos sct-intro */
+
+/* Inicio estilos de sct-imagenes */
 #sct-imagenes{
     display: flex;
     flex-direction: column;
@@ -36,36 +97,65 @@ header #nav-desktop{
 #sct-imagenes figure img{
     width: 100%;
 }
+/* Fin estilos de sct-imagenes */
+
+/* Inicio estilos de sct-texto */
 #sct-texto{
     background: #ebebeb;
     color: #515151;
     font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
+    padding-bottom: 30px;
+    line-height: 250%;
+    padding: 0 60px;
 }
 #sct-texto h2{
     font-size: 18px;
     font-weight: 700;
     color: #088ca5;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 #sct-texto p{
-    padding-bottom: 30px;
-    line-height: 250%;
+    padding-bottom: 20px;
 }
-#sct-texto .desktop-text{
+#sct-texto .sct-texto-desktop{
     display: none;
 }
+/* Fin estilos de sct-texto */
+
+/* Media Query Screen Size 640px and above */
 @media all and (min-width: 640px){
     header #nav-mobile{
         min-height: 75px;
+        font-size: 22px;
     }
     header #nav-mobile .material-icons{
         min-height: 75px;
         min-width: 75px;
+        font-size: 30px;
+    }
+    #intro-bottom{
+        height: 120px;
+    }
+    #intro-bottom .intro-bottom-2{
+        width: 120px;
+        height: 120px;
+    }
+    #sct-texto{
+        font-size: 14px;
+    }
+    #sct-texto h2{
+        font-size: 22px;
+    }
+    #sct-intro{
+        height: 450px;
+    }
+    #sct-intro .intro-middle{
+        padding-top: 50px;
     }
 }
+/* Media Query Screen Size 640px and above */
+
+/* Media Query Screen Size 980px and above */
 @media all and (min-width: 980px){
     header #nav-mobile{
         display: none;
@@ -82,20 +172,31 @@ header #nav-desktop{
         color: #ebebeb;
         text-decoration: none;
     }
+    #intro-bottom{
+        height: 180px;
+    }
+    #intro-bottom .intro-bottom-2{
+        width: 180px;
+        height: 180px;
+    }
     #sct-imagenes{
         display: flex;
         flex-direction: row;
     }
-    #sct-texto{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
+    #sct-texto .sct-texto-mobile{
+        display: none;
     }
-    #sct-texto .desktop-text,
-    #sct-texto .mobile-text{
+    #sct-texto .sct-texto-desktop{
         display: flex;
-        flex-direction: column;
-        width: 50%;
-        padding: 10px 20px;
+    }
+    .texto-desktop-col1{
+        padding-right: 60px;
+    }
+    #sct-intro{
+        height: 550px;
+    }
+    #sct-intro .intro-middle{
+        padding-top: 70px;
     }
 }
+/* Media Query Screen Size 980px and above */
