@@ -17,6 +17,9 @@
         <title>Final Project - Spotify Premium Page</title>
     </head>
 <body>
+
+    <!-- Main menu starts here -->
+    
     <header>
         <nav id="nav-mobile">
             <div class="nav-mobile-left">
@@ -38,9 +41,9 @@
                 <p>Spotify<span>&#174;</span></p>
             </div>
             <div class="nav-desktop-right">
-                <p>Premium</p>
-                <p>Support</p>
-                <p>Download</p>
+                <a href="#" class="nav-desktop-right-premium">Premium</a>
+                <a href="https://support.spotify.com/us/" class="nav-desktop-right-support">Support</a>
+                <a href="https://www.spotify.com/us/download/" class="nav-desktop-right-download">Download</a>
                 <span>|</span>
                 <div class="nav-desktop-right-user">
                     <span class="material-symbols-outlined" id="account_circle">
@@ -54,9 +57,14 @@
             </div>
         </nav>
     </header>
+
+    <!-- Main menu ends here -->
+
     <main>
-        <article id="art-listen">
-            <section id="sct-listen">
+        <!-- Listen without limits section starts here -->
+
+        <section id="sct-listen">
+            <article id="art-listen">
                 <div class="listen-no-limits">
                     <h1>Listen without limits</h1>
                 </div>
@@ -64,14 +72,204 @@
                     <p>Play millions of songs ad-free, on-demand, and offline.</p>
                 </div>
                 <div class="buttons-listen">
-                    <a href="" class="btn-get-started">GET STARTED</a>
-                    <a href="" class="btn-view-plans">VIEW PLANS</a>
+                    <a href="https://www.spotify.com/us/purchase/offer/full-price-premium/?country=US" class="btn-get-started">GET STARTED</a>
+                    <a href="#sct-pick-premium" class="btn-view-plans">VIEW PLANS</a>
                 </div>
                 <footer class="footer-listen">
-                    <p>Terms and conditions apply.</p>
+                    <a href="https://www.spotify.com/us/legal/end-user-agreement/">Terms and conditions apply.</a>
                 </footer>
+            </article>
+        </section>
+
+        <!-- Listen without limits section starts here -->
+
+
+        <!-- Why go Premium? section starts here -->
+
+        <section id="sct-why-premium">
+            <article id="art-why-premium">
+                <h2>Why go Premium?</h2>
+                <div class="greater-than-1200px">
+                    <div class="why-premium-desktop-row1">
+                        <div class="download-music">
+                            <img src="imgs/whyGoPremium_01.png" alt="Download Music">
+                            <div class="sct-why-premium-copy">
+                                <h3>Download music.</h3>
+                                <p>Listen anywhere.</p>
+                            </div>
+                        </div>
+                        <div class="ad-free-music">
+                            <img src="imgs/whyGoPremium_02.png" alt="Ad-free music listening">
+                            <div class="sct-why-premium-copy">
+                                <h3>Ad-free music listening.</h3>
+                                <p>Enjoy nonstop music.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="why-premium-desktop-row2">
+                        <div class="play-any-song">
+                            <img src="imgs/whyGoPremium_03.png" alt="Play any song">
+                            <div class="sct-why-premium-copy">
+                                <h3>Play any song.</h3>
+                                <p>Even on mobile.</p>
+                            </div>
+                        </div>
+                        <div class="unlimited-skips">
+                            <img src="imgs/whyGoPremium_04.png" alt="Unlimited skips">
+                            <div class="sct-why-premium-copy">
+                                <h3>Unlimited skips.</h3>
+                                <p>Just hit next.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Why go Premium? section starts here -->
+
+
+        <!-- Pick your Premium section starts here -->
+
+        <section id="sct-pick-premium">
+            <header class="pick-premium-header">
+                <h2>Pick your Premium</h2>
+                <p>Listen without limits on your phone, speaker, and other devices.</p>
+                <div class="pick-premium-header-logos">
+                    <img src="imgs/creditCards_01.png" alt="Visa">
+                    <img src="imgs/creditCards_02.png" alt="Mastercard">
+                    <img src="imgs/creditCards_03.png" alt="American Express">
+                    <img src="imgs/creditCards_04.png" alt="Discover">
+                    <img src="imgs/creditCards_05.png" alt="Pay Pal">
+                </div>
+            </header>
+
+            <section id="sct-premium-plans">
+                <!-- INDIVIDUAL PLAN -->
+                <div class="individual-plan">
+                    <div class="plan-intro">
+                        <h2>Individual</h2>
+                        <p>$9.99/month</p>
+                        <p>1 account</p>
+                    </div>
+                    <hr>
+                    <div class="plan-bullets">
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Ad-free music listening</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Play anywhere - even offline</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>On-demand playback</p>
+                        </div>
+                    </div>
+                    <div class="plan-button">
+                        <a href="#">GET STARTED</a>
+                    </div>
+                    <div class="plan-footer">
+                        <a href="#">Terms and conditions apply.</a>
+                    </div>
+                </div>
+                <!-- INDIVIDUAL PLAN -->
+
+                <!-- DUO PLAN -->
+                <div class="duo-plan">
+                    <div class="plan-intro">
+                        <h2>Duo</h2>
+                        <p>$12.99/month</p>
+                        <p>2 accounts</p>
+                    </div>
+                    <hr>
+                    <div class="plan-bullets">
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>2 Premium accounts for a couple under one roof</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Ad-free music listening, play offline, on-demand playback</p>
+                        </div>
+                    </div>
+                    <div class="plan-button">
+                        <a href="#">GET STARTED</a>
+                    </div>
+                    <div class="plan-footer">
+                        <a href="#">Terms and conditions apply.</a>
+                    </div>
+                </div>
+                <!-- DUO PLAN -->
+
+                <!-- FAMILY PLAN -->
+                <div class="family-plan">
+                    <div class="plan-intro">
+                        <h2>Family</h2>
+                        <p>$15.99/month</p>
+                        <p>6 accounts</p>
+                    </div>
+                    <hr>
+                    <div class="plan-bullets">
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>6 Premium accounts for family members living under one roof</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Block explicit music</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Ad-free music listening, play offline, on-demand playback</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Spotify Kids: a separate app made just for kids</p>
+                        </div>
+                    </div>
+                    <div class="plan-button">
+                        <a href="#">GET STARTED</a>
+                    </div>
+                    <div class="plan-footer">
+                        <a href="#">Terms and conditions apply.</a>
+                    </div>
+                </div>
+                <!-- FAMILY PLAN -->
+
+                <!-- STUDENT PLAN -->
+                <div class="student-plan">
+                    <div class="plan-intro">
+                        <h2>Student</h2>
+                        <p>$4.99/month</p>
+                        <p>1 account</p>
+                    </div>
+                    <hr>
+                    <div class="plan-bullets">
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Hulu (ad-supported) plan</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>SHOWTIME</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Ad-free music listening</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>Play anywhere - even offline</p>
+                        </div>
+                        <div class="bullet">
+                            <img src="imgs/check.png" alt="check" class="bullet-check"><p>On-demand playback</p>
+                        </div>
+                    </div>
+                    <div class="plan-button">
+                        <a href="#">GET STARTED</a>
+                    </div>
+                    <div class="plan-footer">
+                        <p>Offer currently includes access to Hulu (ad-supported) plan and SHOWTIME Streaming Service, subject to eligibility. Available only to students at an accredited higher education institution. <a href="#">Terms and conditions apply.</a></p>
+                    </div>
+                </div>
+                <!-- DUO PLAN -->
             </section>
-        </article>
+        </section>
+        <!-- Pick your Premium section ends here -->
+
+        <!-- SPACER -->
+        <div class="bottom-spacer"></div>
+        <!-- SPACER -->
     </main>
     <footer>
 
