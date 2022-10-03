@@ -1,0 +1,21 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+#sct-banner {
+  background: #0a99b0;
+  color: #ebebeb;
+  height: 70vh;
+}
+#sct-banner h1, #sct-banner h2 {
+  font-size: 2rem;
+  letter-spacing: 0.0313rem;
+}
+#sct-banner a {
+  color: #ebebeb;
+  text-decoration: none;
+}
+#sct-banner .material-icons {
+  font-size: 1rem;
+}/*# sourceMappingURL=base.css.map */
