@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1, h2 {
   font-weight: 600;
 }
 
@@ -90,4 +90,20 @@ header nav #profile-user {
 .footer-listen {
   font-size: 0.7rem;
   text-decoration: underline;
+}
+
+#sct-why-go {
+  color: #000;
+}
+
+#sct-why-go img {
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+}
+#sct-why-go .why-premium-row {
+  width: 100%;
+}
+#sct-why-go .why-premium-col {
+  width: 50%;
 }/*# sourceMappingURL=base.css.map */
