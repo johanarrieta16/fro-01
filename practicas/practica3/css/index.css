@@ -37,7 +37,7 @@ header #nav-desktop{
 /* Inicio estilos sct-intro */
 #sct-intro{
     color: #fff;
-    font-size: 6vw;
+    font-size: 5.5vw;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -172,12 +172,21 @@ header #nav-desktop{
         color: #ebebeb;
         text-decoration: none;
     }
+    #sct-intro .intro-top{
+        font-size: 55px;
+    }
+    #sct-intro .intro-middle{
+        font-size: 35px;
+    }
     #intro-bottom{
         height: 180px;
     }
     #intro-bottom .intro-bottom-2{
         width: 180px;
         height: 180px;
+    }
+    #intro-bottom p{
+        font-size: 35px;
     }
     #sct-imagenes{
         display: flex;
