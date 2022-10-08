@@ -11,6 +11,7 @@ h1, h2
     font-weight: 600
 header
     font-weight: 600
+    background: $black
     nav
         height: 60px
         img
@@ -45,6 +46,9 @@ header
             padding-right: 5px
 #sct-listen
     background: $light-blue
+    height: 480px
+    a:hover
+        color: $white
     button
         border-radius: 50px
         font-size: 0.875rem
@@ -72,6 +76,19 @@ header
         height: 90px
         margin-right: 20px
     .why-premium-row
-        width: 100%
+        // width: 100%
     .why-premium-col
-        width: 50%
+        // width: 50%
+
+// Media queries
+
+@media (min-width: 768px)
+    #sct-why-go
+        img
+            width: 90px
+            height: 90px
+            margin-right: 20px
+        .why-premium-row
+            width: 100%
+        .why-premium-col
+            width: 50%

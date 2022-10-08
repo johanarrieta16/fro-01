@@ -19,6 +19,7 @@ h1, h2 {
 
 header {
   font-weight: 600;
+  background: #000;
 }
 header nav {
   height: 60px;
@@ -66,6 +67,10 @@ header nav #profile-user {
 
 #sct-listen {
   background: #1D75DE;
+  height: 480px;
+}
+#sct-listen a:hover {
+  color: #fff;
 }
 #sct-listen button {
   border-radius: 50px;
@@ -101,9 +106,16 @@ header nav #profile-user {
   height: 90px;
   margin-right: 20px;
 }
-#sct-why-go .why-premium-row {
-  width: 100%;
-}
-#sct-why-go .why-premium-col {
-  width: 50%;
+@media (min-width: 768px) {
+  #sct-why-go img {
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+  }
+  #sct-why-go .why-premium-row {
+    width: 100%;
+  }
+  #sct-why-go .why-premium-col {
+    width: 50%;
+  }
 }/*# sourceMappingURL=base.css.map */
